@@ -60,6 +60,14 @@ Skill nạp theo cách này mang tên `vietnamese-traditional-architecture:vietn
 
 Chép thư mục `plugins/vietnamese-traditional-architecture/skills/vietnamese-traditional-architecture` vào thư mục skill của agent (bảng ở Cách 1).
 
+## Lỗi "Filename too long" trên Windows
+
+Đường dẫn bên trong gói dài khoảng 150 ký tự. Nếu giải nén hoặc `git clone` vào thư mục quá sâu, Windows có thể vượt giới hạn 260 ký tự. Cách xử lý: giải nén vào thư mục ngắn (vd `C:\tmp`), hoặc bật đường dẫn dài cho git:
+
+```powershell
+git config --global core.longpaths true
+```
+
 ## Kiểm tra
 
 - Có tệp `SKILL.md` tại `~/.claude/skills/vietnamese-traditional-architecture/SKILL.md`.
