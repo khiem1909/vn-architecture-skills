@@ -1,0 +1,18 @@
+{
+  "name": "vn-architecture-skills",
+  "owner": {
+    "name": "khiem1909"
+  },
+  "metadata": {
+    "description": "Skill kiến trúc cổ truyền Việt Nam",
+    "version": "1.2.0"
+  },
+  "plugins": [
+    {
+      "name": "vietnamese-traditional-architecture",
+      "source": "./plugins/vietnamese-traditional-architecture",
+      "description": "Quy chuẩn kiến trúc cổ truyền Việt Nam cho AI: thuật ngữ, mô-đun, tỉ lệ, kết cấu, mái, trang trí, danh sách lỗi cấm \"Trung Hoa hóa\" và bảng chấm điểm, có trích nguồn.",
+      "version": "1.2.0"
+    }
+  ]
+}
